@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Desafio de Desenvolvimento: Aplicação de Listagem de Pokémons com Next.js, Shadcn e TypeScript
 
-First, run the development server:
+Introdução
 
-```bash
+Este desafio consiste na construção de uma aplicação web que lista Pokémons de uma API pública. A aplicação deve permitir aos usuários busacr os Pokémons pelo seu nome e visualizar detalhes sobre nome e tipo.
+
+Requisitos
+
+A aplicação deve atender aos seguintes requisitos:
+
+Buscar Pokémons da API: A aplicação deve ser capaz de realizar requisições à API de Pokémon para buscar dados dos Pokémons.
+Listagem em Grid: Exibir os Pokémons em um layout de grid, utilizando os componentes da biblioteca Shadcn.
+Detalhes do Pokémon: Ao clicar em um Pokémon, uma nova página ou modal deve ser exibida, mostrando mais detalhes sobre o Pokémon selecionado.
+
+Tecnologias
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+Next.js: Framework web para desenvolvimento de aplicações React.
+Shadcn: Biblioteca de UI para React.
+LegendState: Biblioteca para gerenciamento de estado para React.
+TypeScript: Linguagem de programação tipada para JavaScript.
+Instalação
+
+Para instalar o projeto, siga as instruções abaixo:
+
+Clone o repositório do projeto:
+git clone https://github.com/Didio135/projeto-pokemon.git
+Entre na pasta do projeto:
+cd projeto-pokemon
+Instale as dependências:
+npm install
+Configuração
+
+Para configurar o projeto, siga as instruções abaixo:
+
+Abra o arquivo .env.local e configure as seguintes variáveis:
+NEXT_PUBLIC_API_URL=https://pokeapi.co/api/v2/pokemon
+Configure a porta em que o projeto será executado:
+PORT=3000
+Execução
+
+Para executar o projeto, siga as instruções abaixo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O projeto será iniciado na porta 3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A aplicação é dividida em duas telas:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tela inicial: Exibe uma lista de Pokémons.
+Tela de detalhes: Exibe mais informações sobre um Pokémon selecionado.
+Para visualizar a lista de Pokémons, acesse a URL http://localhost:3000.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Para visualizar mais informações sobre um Pokémon, digite seu nome no campo "nome do Pokémon" e aperte no botão "Buscar".
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Conclusão
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Este desafio foi desenvolvido para avaliar minhas habilidades de desenvolvimento de aplicações web utilizando as tecnologias Next.js, Shadcn, LegendState e TypeScript.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Espero que tenha gostado!
