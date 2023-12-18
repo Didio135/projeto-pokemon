@@ -1,4 +1,4 @@
-import CardFindPokemon from './components/cardTestePokemon/page'
+import CardFindPokemon from './components/cardPokemon/page'
 
 export default function Home() {
   
