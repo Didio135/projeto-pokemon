@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'pokebola-bg': "url('/pokebola-bg.jpg')",
+        },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
